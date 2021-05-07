@@ -1,6 +1,5 @@
 document.getElementById('activation').addEventListener('click', Begin)
 
-let result = "empty"
 let inputa = 0
 let rannum = 0
 
