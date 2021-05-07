@@ -13,8 +13,8 @@ function Begin () {
   rannum = Math.floor(Math.random() * 6 ) + 1
   
   if (rannum == inputa) {
-    document.getElementById('output').innerHTML = 'The number you guessed is correct!'
+    document.getElementById('output').innerHTML = 'correct!'
   } else {
-    document.getElementById('output').innerHTML = 'The number you guessed is incorrect'
+    document.getElementById('output').innerHTML = 'incorrect'
   }
 }
